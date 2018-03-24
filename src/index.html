@@ -10,42 +10,223 @@
     <title>Bootstrap Template</title>
 </head>
 <body>
+    <!-- Maviagtion -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Produtos
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Produto 1</a>
+                    <a class="dropdown-item" href="#">Produto 2</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Produto 3</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                      </div>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link disabled" href="#">Disabled</a>
-                    </li>
-                  </ul>
-                  <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                  </form>
+    <!-- Header -->
+    <header>
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li class="active" data-target="#carousel" data-slide-to="0"></li>
+                <li class="active" data-target="#carousel" data-slide-to="1"></li>
+                <li class="active" data-target="#carousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <!-- Slide One -->
+                <div class="carousel-item active" style="background-image: url('http://placehold.it/1900x1080')">
+                    <div class="carousel-caption d-none d-m-block">
+                        <h3>Primeiro Slide</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat molestias asperiores saepe! Quibusdam vero fugiat ratione laboriosam expedita quis deleniti rem nemo nam non. Corporis dolores maxime pariatur dolor et?15</p>
+                    </div>
                 </div>
-              </nav>
+                <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+                    <div class="carousel-caption d-none d-m-block">
+                        <h3>Segundo Slide</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat molestias asperiores saepe! Quibusdam vero fugiat ratione laboriosam expedita quis deleniti rem nemo nam non. Corporis dolores maxime pariatur dolor et?15</p>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+                    <div class="carousel-caption d-none d-m-block">
+                        <h3>Terceiro Slide</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat molestias asperiores saepe! Quibusdam vero fugiat ratione laboriosam expedita quis deleniti rem nemo nam non. Corporis dolores maxime pariatur dolor et?15</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Container -->
+    <main class="container">
+        
+        <h1 class="my-4">Bootstrap Basic Tempate</h1>
+
+        <!-- Marketing Icons Section -->
+        <section class="row">
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100">
+                    <h4 class="card-header">Card Title</h4>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea repellendus voluptatibus quis vero repellat suscipit.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-danger">Leia Mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100">
+                    <h4 class="card-header">Card Title</h4>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea repellendus voluptatibus quis vero repellat suscipit.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-danger">Leia Mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100">
+                    <h4 class="card-header">Card Title</h4>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea repellendus voluptatibus quis vero repellat suscipit.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-danger">Leia Mais</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section class="row">
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                    <a href="#"><img src="http://placehold.it/700x400" alt="" class="card-img-top"></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Projeto 1</a>
+                        </h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit consequuntur tenetur accusantium obcaecati quos placeat corrupti dolorum asperiores, sed facere?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                    <a href="#"><img src="http://placehold.it/700x400" alt="" class="card-img-top"></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Projeto 2</a>
+                        </h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit consequuntur tenetur accusantium obcaecati quos placeat corrupti dolorum asperiores, sed facere?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                    <a href="#"><img src="http://placehold.it/700x400" alt="" class="card-img-top"></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Projeto 3</a>
+                        </h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit consequuntur tenetur accusantium obcaecati quos placeat corrupti dolorum asperiores, sed facere?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                    <a href="#"><img src="http://placehold.it/700x400" alt="" class="card-img-top"></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Projeto 4</a>
+                        </h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit consequuntur tenetur accusantium obcaecati quos placeat corrupti dolorum asperiores, sed facere?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                    <a href="#"><img src="http://placehold.it/700x400" alt="" class="card-img-top"></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Projeto 5</a>
+                        </h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit consequuntur tenetur accusantium obcaecati quos placeat corrupti dolorum asperiores, sed facere?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                    <a href="#"><img src="http://placehold.it/700x400" alt="" class="card-img-top"></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Projeto 6</a>
+                        </h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit consequuntur tenetur accusantium obcaecati quos placeat corrupti dolorum asperiores, sed facere?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="row">
+            <div class="col-lg-6">
+                <h2>Bootstrap Features</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <ul>
+                    <li>
+                        <strong>Bootstrap 4.0</strong>
+                    </li>
+                    <li>JQuery</li>
+                    <li>Ion Icons</li>
+                    <li>Formulário de Contato</li>
+                    <li>Pagina para Customização</li>
+                </ul>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsa in quidem libero, impedit vitae similique officiis, fugit, ipsam accusantium illo. Autem eum similique, animi iusto error repellat. Sint, aspernatur.</p>
+            </div>
+            <div class="col-lg-6"><img src="http://placehold.it/700x450" alt="" class="img-fluid"></div>
+        </section>
+        
+        <hr>
+
+        <!-- Call to Action -->
+        <section class="row mb-4">
+            <div class="col-md-8">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sit omnis fugit necessitatibus libero quibusdam? Mollitia saepe vel similique quis, aliquam culpa cum veritatis expedita minima est, quo numquam? Ducimus!</p>
+            </div>
+            <div class="col-md-4">
+                <a href="#" class="btn btn-secondary btn-block">Call to Action</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-danger">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Meu Site 2018</p>
+        </div>
+    </footer>
     
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
